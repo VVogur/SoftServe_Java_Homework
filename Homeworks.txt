@@ -1,0 +1,195 @@
+HW1
+1) Install JDK (add JAVA_HOME and PATH)
+2) Install Intelij IDEA Community Edition
+3) Send screenshots of getting version of Java in command line and screenshot of installed IDE
+4) Start reading of book about Java and watch video lections.
+
+HW2
+1. Write a program which divide 2 fractional numbers and print results in console
+2. Write a program which count the volume of cylinder and print result in console. Radius and height user input from console
+3. Write a program which converts number from hex to decimal view (input in command line)
+4. Create your own example with increment/decrement, count it manually and then run program and verify your value. Example has to contain more then 5 increment operation, more then 5 decrement operations, *=, +=, -=, and more then 5 resetting of value for each variable.
+5. Write a program which count x1, x2 for quadratic equation. Input a, b, c from console.
+
+HW3
+1. Write a program which take four numbers from the user and print out just that few of them which divide by 3 or 5 without remainder
+2. Write a program which take string from console and print out whether it contains numbers, uppercase symbols, lowercase symbols, special characters (!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~)
+3. Write a Java program that takes a year from user and print whether that year is a leap year or not.
+4. Write a program which take number of month from user and print out name of season (summer, winter ...)
+5. Write the program which take name of color from user (red, blue, green, yellow, orange, black, white, pink) and print out length of this word. Use switch
+
+HW4
+1. Write a program to compute the value of Eiler number, using the following series expansion. 
+Use the maximum denominator as the terminating condition. Try maxDenominator of 1000, 10000, 100000,
+HINT: e=1/0!+1/1!+1/2!+1/3!+1/4!+1/5!+1/6!+...
+https://en.wikipedia.org/wiki/Euler_number
+2. Write a program called Tribonacci to print the first 20 Tribonacci numbers
+0, 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149, 274, 504 ....
+3. Write 4 programs called TriangularPatternX (X = A, B, C, D) that prompts user for the size (a non-negative integer in int); and prints each of the patterns as shown on picture below
+https://prnt.sc/qu7uim
+4. Write a program to extract each digit from a double, in the reverse order. 
+For example, if the double is 2522.43034, the output shall be " 4 3 0 3 4 . 2 2 5 2", with a space separating the digits.
+5. Write program which print out next image using loops:
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+
+HW5
+1) Write program with example of overloading with methods with variations of parameters: (int), (int, int), (double, int), (int, double), (int, float, String) and without parameters. Add case of usage types substitution from Type Promotion table (int → long → float → double)
+2) Print out first 20 Fibonachi numbers using recursion
+3) Write program which create an array from 20 integers with random values, write method with shuffle elements of array in random order
+4) Write program which create an array from 20 integers with random values, write method with sort them in increase order, use Selection sort type
+This algorithm divides the lists into two parts: the left-sublist of items already sorted, and the right-sublist for the remaining items. Initially, the left-sorted-sublist is empty, while the right-unsorted-sublist is the entire list. The algorithm proceeds by finding the smallest (or largest) items from the right-unsorted-sublist, swapping it with the leftmost element of the right-unsorted-sublist, and increase the left-sorted-sublist by one.
+5) Write program which create an array from 20 integers with random values, write method with sort them in increase order, use Insertion sort type
+Similar to the selection sort, but extract the leftmost element from the right-unsorted-sublist, and insert into the correct location of the left-sorted-sublist.
+6*) Bonus task. Not mandatory
+Recursive Quick Sort. Quicksort is a recursive divide and conquer algorithm. It divides the list into two sublists - the low elements and the high element, and recursively sort the sublists. The steps are:
+- Pick an element, called pivot, from the list.
+- Partitioning: reorder the list such that the smaller elements come before the pivot, and the larger elements after the pivot. After the partitioning, the pivot is in its final position.
+- Recursively apply the above step to the sub-lists.
+
+HW6
+1. Write program which print out how much times each character is in initial string
+2. Write a Java program to print out the maximum occurring character in initial string. If there are few of them -> print them all
+3. Write a Java program to reverse a string using recursion
+The given string is: The quick brown fox jumps
+The string in reverse order is: spmuj xof nworb kciuq ehT
+4. Write a Java program to reverse words in a initial string
+The given string is: Reverse text in a string
+The new string after reversed the words: string a in text Reverse
+5. Write a Java program to read a string and an int from console, return a string without the character with described index
+The initial strings is: Hello buddy
+The numbers is: 3
+The new string is: Helo buddy
+
+HW7
+1.Write program that prompts user for the size (a non-negative integer in int) and prints pattern as shown:
+# # # # # # # # # # #
+# # # # #   # # # # #
+# # # #       # # # #
+# # #           # # #
+# #               # #
+#                   #
+# #               # #
+# # #           # # #
+# # # #       # # # #
+# # # # #   # # # # #
+# # # # # # # # # # #
+2.Write program that prompts user for the size (a non-negative integer in int) and prints pattern as shown:
+              1
+            2 1 
+          3 2 1
+        4 3 2 1
+      5 4 3 2 1
+    6 5 4 3 2 1
+  7 6 5 4 3 2 1
+8 7 6 5 4 3 2 1
+3.Write a program which compares 2 strings by symbols and print whether they contain the same symbols or not. If not print difference. (Big and small symbol consider like the same)
+Output >>
+First string: Body_moving
+Second string: My body is fat
+Result: Strings contain different symbols. 
+1st doesn’t contain ‘s’,’f’,’a’,t’
+2nd doesn’t contain ‘_’,’v’,’n’,d’
+4.Write a program which verify whether String is a valid shuffle of other String.
+5.Write a program with method sum(int n) which receives one parameter and return sum of its digits using recursion
+6.Write a program which print out 2dimensional array depending on the size which user set via console:
+Output ->
+Enter the size: 3
+[[5, 4, 3], 
+[6, 9, 2], 
+[7, 8, 1]]
+
+Output ->
+Enter the size: 5
+[[11, 10, 9, 8, 7, 6],
+[12, 27, 26, 25, 24, 5], 
+[13, 28, 35, 34, 23, 4], 
+[14, 29, 36, 33, 22, 3], 
+[15, 30, 31, 32, 21, 2], 
+[16, 17, 18, 19, 20, 1]]
+
+HW8
+1) Create class Worker with next fields: String name, int age, String position, int salary. Give some default values to these fields and add constructor which add new values to them. Add getters and setters. Use all of methods in main in other class.
+2) Add method toString() to Worker class. Add usage of toString() to main in other class.
+3) Create new class Dog, which has one static method and one static field. Print out value of this variable, add usage of static method in main
+4) Create class with 3 variables and 3 constructors. Add usage of all constructor and variables in main method in other class
+5) Create 2 classes, each contains 2 variables. In first class override equals and hashcode. Create few instances of both classes and compare them using ‘==’ and equals()
+
+HW9
+In doc file
+
+HW10
+Modify the homework from your previous lesson to program which has:
+-examples of abstract classes and interfaces (make Vehicle and Bicycle classes as abstract classes, create few new Interfaces and add them to the project).
+-default, static and abstract methods in Interfaces, abstract methods in abstract classes.
+-examples of overloading and overriding of realization (other then in previous home work)
+-class Singleton and usage of it
+-inner, static and anonymous classes, just examples written by your own.
+
+HW11
+1. Write program which stores weekdays in enum and print out every day of week in new line in view:
+M o N d A y
+T u E s D a Y    
+...
+and so on
+2. Write a program which contains enum and realization of abstract method in it. Please choose any example, enum should contain 4 values, each different realization of abstract method.
+3. Write program which contains enum with 3 values (name of value and int number). Print out in main in other class all pairs which you store in enum.
+4. Write program which find all pairs on integer array whose sum is equal to given number
+5. Write class which contains just 1 method which returns the result of multiplication of all doubles which it receives. It can receive any amount of double numbers. Add usage of it in main in other class
+
+HW12
+1. Write program which have variable which is null. Call toString() for this variable. Use try/catch to handle NullPointerException. 
+2. Write program which has method isWeatherGood(boolean isItRaining, int temperature, boolean isItSunny). In this method you have to verify variables and if it’s raining, temperature is below 10, and is not sunny then throw Exception("Weather is not good")
+3. Write our own type of exception (with message) and add usage of it in main method
+4. Write program which has try-catch block inside of catch in try-catch block (with different exception other then we had in class)
+5. Create program which will result StackOverflowException
+
+HW13
+1.  Create a List (try both ArrayList and LinkedList) and fill it with 5 countries. Sort the list and print it, then apply Collections.shuffle( ) to the list repeatedly, printing it each time so that you can see how the shuffle( ) method randomizes the list differently each time.
+2. Write a Java program to compare two array lists. Each needs to contains at least 5 elemets
+3. Write a method switchPairs that switches the order of values in an ArrayList of Strings in a pairwise fashion. Your method should switch the order of the first two values, then switch the order of the next two, switch the order of the next two, and so on. For example, if the list initially stores these values: {"four", "score", "and", "seven", "years", "ago"} your method should switch the first pair, "four", "score", the second pair, "and", "seven", and the third pair, "years", "ago", to yield this list: {"score", "four", "seven", "and", "ago", "years"} If there are an odd number of values in the list, the final element is not moved. For example, if the original list had been: {"to", "be", "or", "not", "to", "be", "hamlet"} It would again switch pairs of values, but the final value, "hamlet" would not be moved, yielding this list: {"be", "to", "not", "or", "be", "to", "hamlet"}
+4. Write a program which measure time of inserting of new entry to hashmap and treemap, use different amounts of new entries (100, 1000, 10000, 1000000…)
+5. Create HashMap with 3 user defined objects Employee (id, name, city). Employee is separate class with described fields and overriden toString(), equals() and hashcode() methods. Compare these 3 objects of Employee as values of maps (they need to have different keys)
+
+HW14
+1. Write program which contains class with 3 generics, each is used as type of variable inside of class. Add usage of class with generics, use different types of variables for generic
+2. Create your own annotation with 5 variables as metadata fields. Add usage of new annotation for method, class, variable.
+3. Create program which read all pairs of values (more then 5 pairs) from property file and print them in console in view of map.
+4. Create program which shuffle 10 files in folder (files receive new order in folder). After every run of program files are shuffled in new order. Length of file names is constant
+
+HW15
+Task 1
+1. Create:
+a. a Person class with name and age fields;
+b. an array of Persons;
+c. two instances of Comparator<Person> interface using lambda expressions: first one for
+comparing by name, second one – by age;
+d. Then sort them using these comparators;
+e. Use forEach method for printing information about all the persons. Use the method
+reference;
+Task 2
+1. Create the following classes:
+a. Author with fields:
+i. String name
+ii. short age
+iii. List<Book> books
+b. Book with fields
+i. String title
+ii. List<Author> authors
+iii. int numberOfPages
+2. Create two arrays: Author[] authors and Book[] books. Their elements must use
+elements from the neighboring array.
+3. Create a stream of books and then:
+a. check if some/all book(s) have more than 200 pages;
+b. find the books with max and min number of pages;
+c. filter books with only single author;
+d. sort the books by number of pages/title;
+e. get list of all titles;
+f. print them using forEach method;
+g. get distinct list of all authors
+4. Use peek method for debugging intermediate streams during execution the previous
+task.
+5. Use parallel stream with subtask #3.
