@@ -2,7 +2,9 @@ package homework2;
 
 import java.util.Scanner;
 
-public class task3_16to10 {
+//Write a program which converts number from hex to decimal view (input in command line)
+
+public class TaskThreeHexToDex {
     public static void main(String[] args) {
 
         Scanner scr = new Scanner(System.in);

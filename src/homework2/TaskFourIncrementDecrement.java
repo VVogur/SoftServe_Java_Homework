@@ -1,9 +1,10 @@
 package homework2;
 
-import java.sql.SQLOutput;
-import java.util.Scanner;
+//Create your own example with increment/decrement, count it manually and then run program and verify your value.
+// Example has to contain more then 5 increment operation,
+// more then 5 decrement operations, *=, +=, -=, and more then 5 resetting of value for each variable.
 
-public class task4_incrementDecrement {
+public class TaskFourIncrementDecrement {
     public static void main(String[] args) {
 
         int x = 5;

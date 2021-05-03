@@ -1,10 +1,11 @@
 package homework2;
 
 import java.util.Scanner;
-
 import static java.lang.Math.sqrt;
 
-public class task5_quadratic {
+//Write a program which count x1, x2 for quadratic equation. Input a, b, c from console.
+
+public class TaskFiveQuadratic {
     public static void main(String[] args) {
 
         Scanner scr = new Scanner(System.in);

@@ -2,7 +2,9 @@ package homework2;
 
 import java.util.Scanner;
 
-public class task1_fractionalNumber {
+//Write a program which divide 2 fractional numbers and print results in console
+
+public class TaskOneFractionalNumbers {
     public static void main(String[] args) {
 
         Scanner scr = new Scanner(System.in);
