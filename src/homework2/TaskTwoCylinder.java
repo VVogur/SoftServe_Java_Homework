@@ -13,6 +13,7 @@ public class TaskTwoCylinder {
             System.out.println("Write height number");
             double b = scr.nextDouble();
             System.out.println("Result " + ((a*a) * b * Math.PI));
+
         }
     }
 

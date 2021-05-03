@@ -9,6 +9,7 @@ public class TaskFourIncrementDecrement {
 
         int x = 5;
         int y = 10;
+
         x++;
         x--;
         x *= x++;

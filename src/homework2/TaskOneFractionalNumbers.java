@@ -13,5 +13,6 @@ public class TaskOneFractionalNumbers {
         System.out.println("Write second number");
         double b = scr.nextDouble();
         System.out.println("Result " + a / b);
+
     }
 }

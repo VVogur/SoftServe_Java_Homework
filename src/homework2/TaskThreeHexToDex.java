@@ -11,5 +11,6 @@ public class TaskThreeHexToDex {
         System.out.println("Write a hex ");
         String hex = scr.nextLine();
         System.out.println(Integer.parseInt(hex, 16));
+
     }
 }
