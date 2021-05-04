@@ -1,5 +1,10 @@
 package homework5;
 
+//Write program which create an array from 20 integers with random values, write method with sort them in
+// increase order, use Insertion sort type
+//Similar to the selection sort, but extract the leftmost element from
+// the right-unsorted-sublist, and insert into the correct location of the left-sorted-sublist.
+
 import java.util.Arrays;
 
 public class TaskFiveInsertion {
