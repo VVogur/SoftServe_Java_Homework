@@ -18,6 +18,8 @@ public class TaskOneOverloading {
         overl(a, b);
         overl(b, a);
         overl(a, c, str);
+        overl((int) b, (double) c);
+        overl((int) b, (long) c);
     }
 
     public static void overl(int a){
