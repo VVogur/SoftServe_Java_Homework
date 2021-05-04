@@ -11,7 +11,7 @@ package homework5;
 import java.util.Arrays;
 import java.util.Random;
 
-public class TaskFourSorting {
+public class TaskFourSelection {
     public static void main(String[] args) {
 
         int[] array = new int[20];
