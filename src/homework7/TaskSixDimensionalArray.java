@@ -39,29 +39,28 @@ public class TaskSixDimensionalArray {
         int maxRow = n - 1;
 
         while (value <= n * n) {
-            for (int i = minRow; i <= maxRow; i++) { //вниз
+            for (int i = maxRow; i >= minRow; i--) { //вверх
+                spiral[i][maxCol] = value;
+
+                value++;
+            }
+            for (int i = maxCol - 1; i >= minCol; i--) { //влево
+                spiral[minRow][i] = value;
+
+                value++;
+            }
+            for (int i = minRow + 1; i <= maxRow; i++) { //вниз
                 spiral[i][minCol] = value;
 
                 value++;
             }
 
-            for (int i = minCol + 1; i <= maxCol; i++) { //вправо
+            for (int i = minCol + 1; i <= maxCol - 1; i++) { //вправо
                 spiral[maxRow][i] = value;
 
                 value++;
             }
 
-            for (int i = maxRow - 1; i >= minRow; i--) { //вверх
-                spiral[i][maxCol] = value;
-
-                value++;
-            }
-
-            for (int i = maxCol - 1; i >= minCol + 1; i--) { //влево
-                spiral[minRow][i] = value;
-
-                value++;
-            }
 
             minCol++;
 
